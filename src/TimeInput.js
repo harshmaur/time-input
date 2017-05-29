@@ -138,7 +138,7 @@ var TimeInput = CreateReactClass({
   handleKeyDown (event) {
     if (event.which === 9) return this.handleTab(event)
     if (event.which === 38 || event.which === 40) return this.handleArrows(event)
-    if (event.which === 8) return this.handleBackspace(event)
+//     if (event.which === 8) return this.handleBackspace(event)
     if (event.which === 46) return this.handleForwardspace(event)
     if (event.which === 27) return this.handleEscape(event)
   },
